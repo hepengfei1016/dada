@@ -1,0 +1,6 @@
+C:\Users\Administrator\Desktop\VS\列子\0703demo\0703demo\bin\0703demo.dll.config
+C:\Users\Administrator\Desktop\VS\列子\0703demo\0703demo\bin\0703demo.dll
+C:\Users\Administrator\Desktop\VS\列子\0703demo\0703demo\bin\0703demo.pdb
+C:\Users\Administrator\Desktop\VS\列子\0703demo\0703demo\obj\Debug\0703demo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\VS\列子\0703demo\0703demo\obj\Debug\0703demo.dll
+C:\Users\Administrator\Desktop\VS\列子\0703demo\0703demo\obj\Debug\0703demo.pdb
