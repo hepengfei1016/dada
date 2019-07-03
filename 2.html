@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+//			var  x='c';
+//			var  y;
+//			switch(x)
+//			{    
+//				case  'a':
+//			        y=5;
+//			        break
+//			    case  'c':
+//			       y=6;
+//			       break
+//			    default:
+//			       y=0;
+//
+//			}
+//         document.write(y)
+
+        //数组也是一个内置的js对象
+        //数组：一组变量的集合
+        //声明数组的三种方式
+        //(1)new Array(数组长度)
+        //数组长度：数组中元素的个数
+        var arr=new Array(5)
+//      alert(arr)
+//      alert(typeof arr)//object
+        //添加元素：数组由索引（键）和元素（值）组成，数组中的每一个元素都有一个索引，一一对应。索引默认从0开始。依次递增。添加或获取元素都需要通过索引来找到,
+        //数组名称[索引]
+        arr[0]=10000
+        arr[1]='宁振皓'
+        arr[2]=18
+        arr[3]='男'
+//      alert(arr)
+        document.write(arr[1])
+        //（2）new Array(元素1，元素2，...)
+        var arr1=new Array(10001,'吕爽',18,'女')
+//      alert(arr1)
+        document.write(arr1[0])
+        //（3）[]
+        var arr2=[10002,'王建',18,'男']
+//       alert(arr2)
+        document.write(arr2[2])
+        
+        //数组的属性：length属性用来获取数组中元素的个数
+//      alert(arr2.length)
+//       alert(arr.length)
+        //数组的方法：
+//       alert(arr2)
+//    alert(typeof arr2)
+//    alert(typeof arr2.join())//join()方法将数组元素组合成字符串
+//    alert(arr2.reverse())//将数组进行翻转，原来的数组发生改变
+//    alert(typeof arr2)
+//   alert(arr2)
+    var numarr=[1,4,2,7,3]
+    /*自定义一个降序排列的函数*/
+    function desc(a,b){
+    	return b-a	
+    }
+      alert(numarr)
+//    alert(numarr.sort())  //将数组中的数字默认按升序排列
+//    alert(numarr.sort(desc))//将数组中的数字降序排列
+//    alert(numarr.pop())//移除数组最后一个元素，返回值是被移除的哪个值
+//    alert(numarr.push('a'))//6 返回值是新数组的长度，原来的数组改变
+//    alert(numarr.push('a',true,'123',['a','b','c']))//9
+//    alert(numarr.shift())//移除数组第一个元素，返回值是被移除的哪个值
+//    alert(numarr.unshift('abc','edf'))//在数组的前面添加元素，返回值是新数组的长度
+     alert(numarr)
+     
+     //拓展方法：
+//   slice()
+//   splice()
+//   valueOf()
+//   toString()
+      //获取数组中的最后一个元素
+      // (1)pop()
+      //（2）alert(numarr[numarr.length-1])
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
